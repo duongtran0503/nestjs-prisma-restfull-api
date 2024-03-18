@@ -71,3 +71,12 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+## API ENDPOINT
+http:localhost://127.0.0.1:3000/auth/register -> create account (post)</br>
+http:localhost://127.0.0.1:3000/auth/login -> login account (post)</br>
+http:localhost://127.0.0.1:3000/users -> get list user (get)</br>
+http:localhost://127.0.0.1:3000/users?query=value -> get list user width query (get)</br>
+http:localhost://127.0.0.1:3000/user/register  -> create user (post)</br>
+http:localhost://127.0.0.1:3000/user/:id  -> get user width id (get)</br>
+http:localhost://127.0.0.1:3000/user/:id -> update user width id (put)</br>
+
